@@ -1,0 +1,10 @@
+# Settings applied on top of the default /etc/postfix/main.cf with `postconf -e`.
+# One "key = value" per line; blank lines and comments are ignored.
+myhostname = mail.tercera.com
+mydomain = tercera.com
+myorigin = $mydomain
+mydestination = $myhostname, $mydomain, localhost.$mydomain, localhost
+mynetworks = 127.0.0.0/8 [::1]/128 192.168.100.32/27
+inet_interfaces = all
+inet_protocols = all
+home_mailbox = Maildir/

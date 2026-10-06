@@ -1,0 +1,4 @@
+# /etc/default/isc-dhcp-server
+# Serve DHCP only on the internal interface, never on the NAT side.
+INTERFACESv4="enp0s8"
+INTERFACESv6=""

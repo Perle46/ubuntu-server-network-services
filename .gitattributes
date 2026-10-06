@@ -1,0 +1,3 @@
+# Config files and scripts run on Linux: always store them with LF line endings
+* text=auto eol=lf
+*.png binary

@@ -1,0 +1,7 @@
+//
+// Local zones
+//
+zone "tercera.com" {
+        type master;
+        file "/etc/bind/db.tercera.com";
+};

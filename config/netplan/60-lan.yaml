@@ -1,0 +1,8 @@
+# Static address for the internal lab network (subnet 2 of 8, /27).
+# enp0s3 keeps its NAT/DHCP address from 50-cloud-init.yaml for internet access.
+network:
+  version: 2
+  ethernets:
+    enp0s8:
+      addresses:
+        - 192.168.100.33/27
